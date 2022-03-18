@@ -8,3 +8,9 @@
     background-color: #d31a23;
     border-color: beige;
 }
+.nav-item:hover {
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1.1);
+    transition: 1.3s ease;
+}
