@@ -1,0 +1,31 @@
+
+$CARNE: #d31a23;
+$CLARO: #fafafa;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import "./parciales/index.scss";
+
+.LOGOO {
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8rem;
+    color: $CLARO;
+    padding: 20%;
+    @media screen and ( max-width:488px) {
+        font-size: 2rem;
+        padding: 5%;        
+    }
+
+    @media screen and ( max-width:768px) {
+        font-size: 5rem;
+        padding: 10%;        
+    }
+    }
+  .bgfondos {
+      background-color: $CARNE;
+  }

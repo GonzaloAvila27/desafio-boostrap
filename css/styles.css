@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.LOGOO {
+  position: absolute;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 8rem;
+  color: #fafafa;
+  padding: 20%;
+}
+
+@media screen and (max-width: 488px) {
+  .LOGOO {
+    font-size: 2rem;
+    padding: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .LOGOO {
+    font-size: 5rem;
+    padding: 10%;
+  }
+}
+
+.bgfondos {
+  background-color: #d31a23;
+}
+/*# sourceMappingURL=styles.css.map */
