@@ -1,6 +1,19 @@
 
 $CARNE: #d31a23;
 $CLARO: #fafafa;
+$MORENA: #572c0e;
+$fontLOGO: 'Ultra', serif;
+$fontRobot: 'Roboto', sans-serif;
+
+@mixin titseccion  {
+    text-align: center;
+    font-size: 5rem;
+    font-family: $fontLOGO;
+    color: $CLARO;
+    padding: 0.5rem;
+    margin: 0.1rem;
+    background-color:$MORENA;
+}
 
 * {
     padding: 0;
@@ -12,7 +25,7 @@ $CLARO: #fafafa;
 
 .LOGOO {
     position: absolute;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: $fontLOGO;
     font-size: 8rem;
     color: $CLARO;
     padding: 20%;
@@ -29,3 +42,22 @@ $CLARO: #fafafa;
   .bgfondos {
       background-color: $CARNE;
   }
+.navegador {
+   div div ul a {
+        
+        &:hover{
+            background-color: $CLARO;
+            border: $CARNE dotted 0.1rem;
+        }
+    }
+    
+    .lista {
+       text-transform: uppercase;
+       font-family: $fontRobot;
+       color: $CLARO;
+       
+    }
+}
+.titulosecion {
+    @include titseccion;
+}
